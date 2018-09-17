@@ -1,0 +1,6 @@
+framework module Pods_GistComment {
+  umbrella header "Pods-GistComment-umbrella.h"
+
+  export *
+  module * { export * }
+}

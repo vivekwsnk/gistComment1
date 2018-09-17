@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		759D3CFD214F6E4300F07942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3CFC214F6E4300F07942 /* AppDelegate.swift */; };
+		759D3D02214F6E4300F07942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759D3D00214F6E4300F07942 /* Main.storyboard */; };
+		759D3D05214F6E4400F07942 /* GistComment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D03214F6E4300F07942 /* GistComment.xcdatamodeld */; };
+		759D3D07214F6E4E00F07942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 759D3D06214F6E4E00F07942 /* Assets.xcassets */; };
+		759D3D0A214F6E4E00F07942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759D3D08214F6E4E00F07942 /* LaunchScreen.storyboard */; };
+		759D3D15214F6E4E00F07942 /* GistCommentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D14214F6E4E00F07942 /* GistCommentTests.swift */; };
+		759D3D20214F6E4E00F07942 /* GistCommentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D1F214F6E4E00F07942 /* GistCommentUITests.swift */; };
+		759D3D38214F6FCB00F07942 /* ToggleTorchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D2E214F6FCB00F07942 /* ToggleTorchButton.swift */; };
+		759D3D39214F6FCB00F07942 /* QRCodeReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D2F214F6FCB00F07942 /* QRCodeReaderView.swift */; };
+		759D3D3A214F6FCB00F07942 /* QRCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D30214F6FCB00F07942 /* QRCodeReaderViewController.swift */; };
+		759D3D3B214F6FCB00F07942 /* QRCodeReaderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D31214F6FCB00F07942 /* QRCodeReaderResult.swift */; };
+		759D3D3C214F6FCB00F07942 /* QRCodeReaderViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D32214F6FCB00F07942 /* QRCodeReaderViewControllerDelegate.swift */; };
+		759D3D3D214F6FCB00F07942 /* ReaderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D33214F6FCB00F07942 /* ReaderOverlayView.swift */; };
+		759D3D3E214F6FCB00F07942 /* QRCodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D34214F6FCB00F07942 /* QRCodeReader.swift */; };
+		759D3D3F214F6FCB00F07942 /* QRCodeReaderViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D35214F6FCB00F07942 /* QRCodeReaderViewContainer.swift */; };
+		759D3D40214F6FCB00F07942 /* QRCodeReaderViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D36214F6FCB00F07942 /* QRCodeReaderViewControllerBuilder.swift */; };
+		759D3D41214F6FCB00F07942 /* SwitchCameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D37214F6FCB00F07942 /* SwitchCameraButton.swift */; };
+		759D3D44214F6FE500F07942 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759D3D43214F6FE500F07942 /* AVFoundation.framework */; };
+		759D3D46214F710700F07942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D45214F710700F07942 /* ViewController.swift */; };
+		759D3D48214F733800F07942 /* GistCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759D3D47214F733700F07942 /* GistCommentsViewController.swift */; };
+		B193B048A2D69DE2A97959BB /* libPods-GistCommentUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EEABF05131C8A8D89243EA /* libPods-GistCommentUITests.a */; };
+		DF440320E500620A3178B690 /* Pods_GistComment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0FD8CA93316308CE7CE7FDD /* Pods_GistComment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		759D3D11214F6E4E00F07942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759D3CF1214F6E4300F07942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759D3CF8214F6E4300F07942;
+			remoteInfo = GistComment;
+		};
+		759D3D1C214F6E4E00F07942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 759D3CF1214F6E4300F07942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 759D3CF8214F6E4300F07942;
+			remoteInfo = GistComment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFBA1B31D107ABA25785D31 /* Pods-GistCommentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistCommentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GistCommentUITests/Pods-GistCommentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2669922604F9EA513E9863A8 /* Pods-GistComment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistComment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GistComment/Pods-GistComment.debug.xcconfig"; sourceTree = "<group>"; };
+		759D3CF9214F6E4300F07942 /* GistComment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GistComment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		759D3CFC214F6E4300F07942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		759D3D01214F6E4300F07942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		759D3D04214F6E4300F07942 /* GistComment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GistComment.xcdatamodel; sourceTree = "<group>"; };
+		759D3D06214F6E4E00F07942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		759D3D09214F6E4E00F07942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		759D3D0B214F6E4E00F07942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759D3D10214F6E4E00F07942 /* GistCommentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistCommentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759D3D14214F6E4E00F07942 /* GistCommentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistCommentTests.swift; sourceTree = "<group>"; };
+		759D3D16214F6E4E00F07942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759D3D1B214F6E4E00F07942 /* GistCommentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GistCommentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		759D3D1F214F6E4E00F07942 /* GistCommentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GistCommentUITests.swift; sourceTree = "<group>"; };
+		759D3D21214F6E4E00F07942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759D3D2E214F6FCB00F07942 /* ToggleTorchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToggleTorchButton.swift; path = GistComment/Source/ToggleTorchButton.swift; sourceTree = SOURCE_ROOT; };
+		759D3D2F214F6FCB00F07942 /* QRCodeReaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderView.swift; path = GistComment/Source/QRCodeReaderView.swift; sourceTree = SOURCE_ROOT; };
+		759D3D30214F6FCB00F07942 /* QRCodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewController.swift; path = GistComment/Source/QRCodeReaderViewController.swift; sourceTree = SOURCE_ROOT; };
+		759D3D31214F6FCB00F07942 /* QRCodeReaderResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderResult.swift; path = GistComment/Source/QRCodeReaderResult.swift; sourceTree = SOURCE_ROOT; };
+		759D3D32214F6FCB00F07942 /* QRCodeReaderViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerDelegate.swift; path = GistComment/Source/QRCodeReaderViewControllerDelegate.swift; sourceTree = SOURCE_ROOT; };
+		759D3D33214F6FCB00F07942 /* ReaderOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReaderOverlayView.swift; path = GistComment/Source/ReaderOverlayView.swift; sourceTree = SOURCE_ROOT; };
+		759D3D34214F6FCB00F07942 /* QRCodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReader.swift; path = GistComment/Source/QRCodeReader.swift; sourceTree = SOURCE_ROOT; };
+		759D3D35214F6FCB00F07942 /* QRCodeReaderViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewContainer.swift; path = GistComment/Source/QRCodeReaderViewContainer.swift; sourceTree = SOURCE_ROOT; };
+		759D3D36214F6FCB00F07942 /* QRCodeReaderViewControllerBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRCodeReaderViewControllerBuilder.swift; path = GistComment/Source/QRCodeReaderViewControllerBuilder.swift; sourceTree = SOURCE_ROOT; };
+		759D3D37214F6FCB00F07942 /* SwitchCameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchCameraButton.swift; path = GistComment/Source/SwitchCameraButton.swift; sourceTree = SOURCE_ROOT; };
+		759D3D43214F6FE500F07942 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		759D3D45214F710700F07942 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		759D3D47214F733700F07942 /* GistCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistCommentsViewController.swift; sourceTree = "<group>"; };
+		9D5F4DC5338FF03B3E6D583F /* Pods-GistComment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistComment.release.xcconfig"; path = "Pods/Target Support Files/Pods-GistComment/Pods-GistComment.release.xcconfig"; sourceTree = "<group>"; };
+		B65097C5C84824B138EAE488 /* Pods-GistCommentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GistCommentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GistCommentUITests/Pods-GistCommentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3EEABF05131C8A8D89243EA /* libPods-GistCommentUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GistCommentUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FD8CA93316308CE7CE7FDD /* Pods_GistComment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GistComment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		759D3CF6214F6E4300F07942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D3D44214F6FE500F07942 /* AVFoundation.framework in Frameworks */,
+				DF440320E500620A3178B690 /* Pods_GistComment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D3D0D214F6E4E00F07942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D3D18214F6E4E00F07942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B193B048A2D69DE2A97959BB /* libPods-GistCommentUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2509AB4232E85EC5ACC514D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2669922604F9EA513E9863A8 /* Pods-GistComment.debug.xcconfig */,
+				9D5F4DC5338FF03B3E6D583F /* Pods-GistComment.release.xcconfig */,
+				B65097C5C84824B138EAE488 /* Pods-GistCommentUITests.debug.xcconfig */,
+				0EFBA1B31D107ABA25785D31 /* Pods-GistCommentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		759D3CF0214F6E4300F07942 = {
+			isa = PBXGroup;
+			children = (
+				759D3CFB214F6E4300F07942 /* GistComment */,
+				759D3D13214F6E4E00F07942 /* GistCommentTests */,
+				759D3D1E214F6E4E00F07942 /* GistCommentUITests */,
+				759D3CFA214F6E4300F07942 /* Products */,
+				759D3D42214F6FE500F07942 /* Frameworks */,
+				2509AB4232E85EC5ACC514D1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		759D3CFA214F6E4300F07942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				759D3CF9214F6E4300F07942 /* GistComment.app */,
+				759D3D10214F6E4E00F07942 /* GistCommentTests.xctest */,
+				759D3D1B214F6E4E00F07942 /* GistCommentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		759D3CFB214F6E4300F07942 /* GistComment */ = {
+			isa = PBXGroup;
+			children = (
+				759D3D2D214F6F8100F07942 /* QRCodeReader */,
+				759D3CFC214F6E4300F07942 /* AppDelegate.swift */,
+				759D3D45214F710700F07942 /* ViewController.swift */,
+				759D3D47214F733700F07942 /* GistCommentsViewController.swift */,
+				759D3D00214F6E4300F07942 /* Main.storyboard */,
+				759D3D06214F6E4E00F07942 /* Assets.xcassets */,
+				759D3D08214F6E4E00F07942 /* LaunchScreen.storyboard */,
+				759D3D0B214F6E4E00F07942 /* Info.plist */,
+				759D3D03214F6E4300F07942 /* GistComment.xcdatamodeld */,
+			);
+			path = GistComment;
+			sourceTree = "<group>";
+		};
+		759D3D13214F6E4E00F07942 /* GistCommentTests */ = {
+			isa = PBXGroup;
+			children = (
+				759D3D14214F6E4E00F07942 /* GistCommentTests.swift */,
+				759D3D16214F6E4E00F07942 /* Info.plist */,
+			);
+			path = GistCommentTests;
+			sourceTree = "<group>";
+		};
+		759D3D1E214F6E4E00F07942 /* GistCommentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				759D3D1F214F6E4E00F07942 /* GistCommentUITests.swift */,
+				759D3D21214F6E4E00F07942 /* Info.plist */,
+			);
+			path = GistCommentUITests;
+			sourceTree = "<group>";
+		};
+		759D3D2D214F6F8100F07942 /* QRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				759D3D34214F6FCB00F07942 /* QRCodeReader.swift */,
+				759D3D31214F6FCB00F07942 /* QRCodeReaderResult.swift */,
+				759D3D2F214F6FCB00F07942 /* QRCodeReaderView.swift */,
+				759D3D35214F6FCB00F07942 /* QRCodeReaderViewContainer.swift */,
+				759D3D30214F6FCB00F07942 /* QRCodeReaderViewController.swift */,
+				759D3D36214F6FCB00F07942 /* QRCodeReaderViewControllerBuilder.swift */,
+				759D3D32214F6FCB00F07942 /* QRCodeReaderViewControllerDelegate.swift */,
+				759D3D33214F6FCB00F07942 /* ReaderOverlayView.swift */,
+				759D3D37214F6FCB00F07942 /* SwitchCameraButton.swift */,
+				759D3D2E214F6FCB00F07942 /* ToggleTorchButton.swift */,
+			);
+			path = QRCodeReader;
+			sourceTree = "<group>";
+		};
+		759D3D42214F6FE500F07942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				759D3D43214F6FE500F07942 /* AVFoundation.framework */,
+				F0FD8CA93316308CE7CE7FDD /* Pods_GistComment.framework */,
+				E3EEABF05131C8A8D89243EA /* libPods-GistCommentUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		759D3CF8214F6E4300F07942 /* GistComment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759D3D24214F6E4E00F07942 /* Build configuration list for PBXNativeTarget "GistComment" */;
+			buildPhases = (
+				C608BB3CF97DD0E3D9E4CB82 /* [CP] Check Pods Manifest.lock */,
+				759D3CF5214F6E4300F07942 /* Sources */,
+				759D3CF6214F6E4300F07942 /* Frameworks */,
+				759D3CF7214F6E4300F07942 /* Resources */,
+				2EFF78163312DD2F52339F74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GistComment;
+			productName = GistComment;
+			productReference = 759D3CF9214F6E4300F07942 /* GistComment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		759D3D0F214F6E4E00F07942 /* GistCommentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759D3D27214F6E4E00F07942 /* Build configuration list for PBXNativeTarget "GistCommentTests" */;
+			buildPhases = (
+				759D3D0C214F6E4E00F07942 /* Sources */,
+				759D3D0D214F6E4E00F07942 /* Frameworks */,
+				759D3D0E214F6E4E00F07942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759D3D12214F6E4E00F07942 /* PBXTargetDependency */,
+			);
+			name = GistCommentTests;
+			productName = GistCommentTests;
+			productReference = 759D3D10214F6E4E00F07942 /* GistCommentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		759D3D1A214F6E4E00F07942 /* GistCommentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 759D3D2A214F6E4E00F07942 /* Build configuration list for PBXNativeTarget "GistCommentUITests" */;
+			buildPhases = (
+				EC8094512543E989AB0A23CF /* [CP] Check Pods Manifest.lock */,
+				759D3D17214F6E4E00F07942 /* Sources */,
+				759D3D18214F6E4E00F07942 /* Frameworks */,
+				759D3D19214F6E4E00F07942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				759D3D1D214F6E4E00F07942 /* PBXTargetDependency */,
+			);
+			name = GistCommentUITests;
+			productName = GistCommentUITests;
+			productReference = 759D3D1B214F6E4E00F07942 /* GistCommentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		759D3CF1214F6E4300F07942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Dasharath Deokar";
+				TargetAttributes = {
+					759D3CF8214F6E4300F07942 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					759D3D0F214F6E4E00F07942 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 759D3CF8214F6E4300F07942;
+					};
+					759D3D1A214F6E4E00F07942 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 759D3CF8214F6E4300F07942;
+					};
+				};
+			};
+			buildConfigurationList = 759D3CF4214F6E4300F07942 /* Build configuration list for PBXProject "GistComment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 759D3CF0214F6E4300F07942;
+			productRefGroup = 759D3CFA214F6E4300F07942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				759D3CF8214F6E4300F07942 /* GistComment */,
+				759D3D0F214F6E4E00F07942 /* GistCommentTests */,
+				759D3D1A214F6E4E00F07942 /* GistCommentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		759D3CF7214F6E4300F07942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D3D0A214F6E4E00F07942 /* LaunchScreen.storyboard in Resources */,
+				759D3D07214F6E4E00F07942 /* Assets.xcassets in Resources */,
+				759D3D02214F6E4300F07942 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D3D0E214F6E4E00F07942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D3D19214F6E4E00F07942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EFF78163312DD2F52339F74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GistComment/Pods-GistComment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GistComment/Pods-GistComment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C608BB3CF97DD0E3D9E4CB82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GistComment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8094512543E989AB0A23CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GistCommentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		759D3CF5214F6E4300F07942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D3D3D214F6FCB00F07942 /* ReaderOverlayView.swift in Sources */,
+				759D3D40214F6FCB00F07942 /* QRCodeReaderViewControllerBuilder.swift in Sources */,
+				759D3D3A214F6FCB00F07942 /* QRCodeReaderViewController.swift in Sources */,
+				759D3D41214F6FCB00F07942 /* SwitchCameraButton.swift in Sources */,
+				759D3D3E214F6FCB00F07942 /* QRCodeReader.swift in Sources */,
+				759D3D38214F6FCB00F07942 /* ToggleTorchButton.swift in Sources */,
+				759D3D05214F6E4400F07942 /* GistComment.xcdatamodeld in Sources */,
+				759D3D3B214F6FCB00F07942 /* QRCodeReaderResult.swift in Sources */,
+				759D3D48214F733800F07942 /* GistCommentsViewController.swift in Sources */,
+				759D3D46214F710700F07942 /* ViewController.swift in Sources */,
+				759D3CFD214F6E4300F07942 /* AppDelegate.swift in Sources */,
+				759D3D3C214F6FCB00F07942 /* QRCodeReaderViewControllerDelegate.swift in Sources */,
+				759D3D3F214F6FCB00F07942 /* QRCodeReaderViewContainer.swift in Sources */,
+				759D3D39214F6FCB00F07942 /* QRCodeReaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D3D0C214F6E4E00F07942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D3D15214F6E4E00F07942 /* GistCommentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759D3D17214F6E4E00F07942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D3D20214F6E4E00F07942 /* GistCommentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		759D3D12214F6E4E00F07942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759D3CF8214F6E4300F07942 /* GistComment */;
+			targetProxy = 759D3D11214F6E4E00F07942 /* PBXContainerItemProxy */;
+		};
+		759D3D1D214F6E4E00F07942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 759D3CF8214F6E4300F07942 /* GistComment */;
+			targetProxy = 759D3D1C214F6E4E00F07942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		759D3D00214F6E4300F07942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759D3D01214F6E4300F07942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		759D3D08214F6E4E00F07942 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				759D3D09214F6E4E00F07942 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		759D3D22214F6E4E00F07942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		759D3D23214F6E4E00F07942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		759D3D25214F6E4E00F07942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2669922604F9EA513E9863A8 /* Pods-GistComment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WA5682HV7;
+				INFOPLIST_FILE = GistComment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.habron.MailDemo.GistComment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		759D3D26214F6E4E00F07942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5F4DC5338FF03B3E6D583F /* Pods-GistComment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WA5682HV7;
+				INFOPLIST_FILE = GistComment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.habron.MailDemo.GistComment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		759D3D28214F6E4E00F07942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WA5682HV7;
+				INFOPLIST_FILE = GistCommentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.habron.MailDemo.GistCommentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GistComment.app/GistComment";
+			};
+			name = Debug;
+		};
+		759D3D29214F6E4E00F07942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WA5682HV7;
+				INFOPLIST_FILE = GistCommentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.habron.MailDemo.GistCommentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GistComment.app/GistComment";
+			};
+			name = Release;
+		};
+		759D3D2B214F6E4E00F07942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65097C5C84824B138EAE488 /* Pods-GistCommentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WA5682HV7;
+				INFOPLIST_FILE = GistCommentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.habron.MailDemo.GistCommentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GistComment;
+			};
+			name = Debug;
+		};
+		759D3D2C214F6E4E00F07942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EFBA1B31D107ABA25785D31 /* Pods-GistCommentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WA5682HV7;
+				INFOPLIST_FILE = GistCommentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.habron.MailDemo.GistCommentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GistComment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		759D3CF4214F6E4300F07942 /* Build configuration list for PBXProject "GistComment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D3D22214F6E4E00F07942 /* Debug */,
+				759D3D23214F6E4E00F07942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759D3D24214F6E4E00F07942 /* Build configuration list for PBXNativeTarget "GistComment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D3D25214F6E4E00F07942 /* Debug */,
+				759D3D26214F6E4E00F07942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759D3D27214F6E4E00F07942 /* Build configuration list for PBXNativeTarget "GistCommentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D3D28214F6E4E00F07942 /* Debug */,
+				759D3D29214F6E4E00F07942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		759D3D2A214F6E4E00F07942 /* Build configuration list for PBXNativeTarget "GistCommentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759D3D2B214F6E4E00F07942 /* Debug */,
+				759D3D2C214F6E4E00F07942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		759D3D03214F6E4300F07942 /* GistComment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				759D3D04214F6E4300F07942 /* GistComment.xcdatamodel */,
+			);
+			currentVersion = 759D3D04214F6E4300F07942 /* GistComment.xcdatamodel */;
+			path = GistComment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 759D3CF1214F6E4300F07942 /* Project object */;
+}
